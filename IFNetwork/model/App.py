@@ -4,6 +4,7 @@ conn = sqlite3.connect('IFNetwork.db')
 cursor = conn.cursor()
 
 # Criando as tabelas: usuario, mensagem, post, amizade, amigo_usuario
+# Esse código precisa ser melhorado!
 
 cursor.execute("""
     CREATE TABLE usuario(
